@@ -1,0 +1,18 @@
+{
+  "name": "cucumber-sample",
+  "version": "0.0.1",
+  "description": "Cucumber Sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --format summary e2e/features/**/*.feature -f node_modules/cucumber-pretty"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "cucumber": "^6.0.5",
+    "cucumber-pretty": "^6.0.0",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  },
+  "dependencies": {
+    "chromedriver": "^90.0.0"
+  }
+}
